@@ -1,5 +1,6 @@
-import page from './home_page.js';
+import homePage from './home_page.js';
+import menuPage from './menu_page.js';
 import './style.css';
 
-page();
+menuPage();
 console.log('test');

@@ -1,6 +1,6 @@
 import img from './Los_Pollos_Hermanos_logo.png';
 
-function page(){
+function homePage(){
     const parent_div = document.querySelector('#content');
     const logo = new Image();
     logo.src = img;
@@ -14,4 +14,4 @@ function page(){
     parent_div.appendChild(slogan);
 }
 
-export default page;
+export default homePage;
