@@ -1,5 +1,5 @@
 function contactPage(){
-    const container = document.querySelector('#container');
+    const container = document.querySelector('#content');
 
     const address = document.createElement('div');
     address.innerHTML = 'Address: 12000 – 12100 Coors Rd SW, Albuquerque, New Mexico 87045';

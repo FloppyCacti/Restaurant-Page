@@ -13,12 +13,15 @@ buttons.forEach(element => {
 
         switch(id){
             case 'homeButton':
+                document.querySelector('#content').innerHTML = '';
                 homePage();
                 break;
             case 'menuButton':
+                document.querySelector('#content').innerHTML = '';
                 menuPage();
                 break;
             case 'contactButton':
+                document.querySelector('#content').innerHTML = '';
                 contactPage();
                 break;
         }
