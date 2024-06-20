@@ -1,5 +1,6 @@
 import homePage from './home_page.js';
 import menuPage from './menu_page.js';
+import contactPage from './contact_page.js';
 import './style.css';
 
 const buttons = document.querySelectorAll('.button a');
